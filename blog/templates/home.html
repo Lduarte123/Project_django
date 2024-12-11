@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página institucional de [Seu Nome], um profissional de [Sua Profissão].">
+    <meta name="author" content="[Seu Nome]">
+    <title>[Seu Nome] - Página Institucional</title>
+    <style>
+        /* Reset básico de estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        .intro, .skills, .projects, .contact {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2, .skills h2, .projects h2, .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .skills ul, .projects ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .skills li, .projects li {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .projects li {
+            font-style: italic;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+
+        .contact form button {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .contact form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+                margin: 0 10px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .intro, .skills, .projects, .contact {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lucas Duarte Silvino</h1>
+    <p>Desenvolvedor Web | Designer Gráfico | Entusiasta de Tecnologia</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="contatos.html">Contato</a>
+</nav>
+
+<div class="container">
+    <!-- Seção Sobre -->
+    <section id="sobre" class="intro">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou Lucas Duarte, um profissional apaixonado por tecnologia e design. Ao longo dos anos, venho desenvolvendo habilidades em diversas áreas, como desenvolvimento web, design gráfico e análise de dados. Meu objetivo é criar soluções criativas e funcionais para problemas complexos, com foco na experiência do usuário e inovação.</p>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="skills">
+        <h2>Minhas Habilidades</h2>
+        <ul>
+            <li>Desenvolvimento Web Front-End (HTML, CSS, JavaScript)</li>
+            <li>Design Responsivo e Acessibilidade Web</li>
+            <li>Gestão de Projetos e Metodologias Ágeis (Scrum)</li>
+            <li>UX/UI Design</li>
+            <li>Desenvolvimento Backend (Node.js, Python)</li>
+        </ul>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects">
+        <h2>Meus Projetos</h2>
+        <ul>
+            <li><strong>Projeto 1</strong> - Site institucional para uma empresa de marketing digital.</li>
+            <li><strong>Projeto 2</strong> - Plataforma de e-commerce personalizada.</li>
+            <li><strong>Projeto 3</strong> - Aplicativo de controle de tarefas com design intuitivo.</li>
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" rows="4" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Lucas Duarte. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
